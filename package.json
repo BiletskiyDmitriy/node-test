@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/nodemon/bin/nodemon.js -r esm index.js"
+    "start": "node -r esm index.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js -r esm index.js"
   },
   "keywords": [],
   "author": "",
